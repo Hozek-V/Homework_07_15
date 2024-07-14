@@ -13,7 +13,6 @@ Sample_2_lines = Sample_data_2.split("\n")
 Difference = []
 for line in range(max(len(Sample_1_lines), len(Sample_2_lines))):
     if not Sample_1_lines[line] == Sample_2_lines[line]:
-        #Diferrence = open("../Files/New file 1.txt", "w")
         Difference.append(Sample_1_lines[line])
         Difference.append(Sample_2_lines[line])
 
